@@ -20,7 +20,8 @@ An interactive and animated **MCQ (Multiple Choice Questions) Quiz App** built u
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![light](https://drive.google.com/file/d/1ZCYSONVSXwdetfA4FokZQ1IOEgU3wAN_/view?usp=sharing) | ![dark](https://drive.google.com/file/d/1QaODHaxW4fflICUuuSxPb5VB_qSgRHst/view?usp=sharing) |
+| ![light](https://drive.google.com/uc?export=view&id=1ZCYSONVSXwdetfA4FokZQ1IOEgU3wAN_) | ![dark](https://drive.google.com/uc?export=view&id=1QaODHaxW4fflICUuuSxPb5VB_qSgRHst) |
+
 
 ---
 
