@@ -1,70 +1,110 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧠 MCQ Game App
 
-## Available Scripts
+An interactive and animated **MCQ (Multiple Choice Questions) Quiz App** built using **ReactJS**. This app features per-question timers, dark mode, animated transitions, and score tracking — ideal for learning reinforcement, skill assessments, or tech demos.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🎯 One question per screen (focus-enhanced UX)
+- ⏱️ 15-second timer for each question
+- 🌓 Dark/Light mode toggle
+- 🎉 Smooth animations on question transitions
+- 🧪 Start, Submit, and Reset functionality
+- 📊 Final score display
+- ✅ Responsive and accessible UI
+- 🔒 No external CSS frameworks (clean custom styling)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![light](https://via.placeholder.com/300x200?text=Light+Mode) | ![dark](https://via.placeholder.com/300x200?text=Dark+Mode) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **ReactJS**
+- **JavaScript (ES6+)**
+- **CSS3 (custom, no Tailwind or Bootstrap)**
+- **HTML5**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧩 Project Structure
 
-### `npm run eject`
+```
+mcq-game-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── index.css
+│   ├── data/
+│   │   └── questions.js
+│   └── components/
+│       ├── QuestionCard.js
+│       └── QuestionCard.css
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js and npm installed
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/your-username/mcq-game-app.git
+cd mcq-game-app
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✨ How It Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Click **Start Quiz** to begin.
+2. Each question appears one-by-one with a **15s countdown**.
+3. Click an answer before time runs out.
+4. View your score or submit anytime using the **Submit Quiz** button.
+5. Use **Restart Quiz** to try again.
+6. Toggle light/dark theme using the 🌞 / 🌙 button.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔍 Use Cases
 
-### Making a Progressive Web App
+- Internship or portfolio project demonstration
+- Educational learning tool
+- Rapid MCQ-based assessment utility
+- ReactJS UI/UX concept showcase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👨‍💻 Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Nitin Dwivedi  
 
-### Deployment
+> Developed as part of a learning internship project at **KNIT Sultanpur, Department of Computer Science & Engineering (Information Technology)**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙌 Acknowledgments
+
+- ReactJS Documentation  
+- Open Source Inspiration  
+- All contributors and mentors who provided guidance  
